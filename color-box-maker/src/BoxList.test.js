@@ -34,7 +34,7 @@ it("can add a new box", function () {
     const removeButton = boxList.getByText("X");
     expect(removeButton).toBeInTheDocument();
     expect(removeButton.previousSibling).toHaveStyle(`
-    width: 200px;
+    width: 200px;u
     height: 200px;
     background-color: blue;
   `);
